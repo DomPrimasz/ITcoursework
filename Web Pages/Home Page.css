@@ -1,0 +1,61 @@
+div.Header{
+    position: relative;
+    right: 8px;
+    bottom: 8px;
+    text-align: center;
+    background: #664673;
+    color: white;
+    font-size: 20px;
+
+    height: 120px;
+}
+
+div.Menu a{
+    position: relative;
+    left: 950px;
+    bottom: 80px;
+    color: #dbc5a9;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 150px;
+    font-family: Arial;
+
+}
+
+div.Menu a:hover{
+    color: #e3b06f;
+
+    font-size: 20px;
+
+    text-decoration: none;
+
+}
+img {
+    position: relative;
+    right: 855px;
+    bottom: 40px;
+
+}
+
+
+
+#StudentsWorking {
+    position:relative;
+    height:501px;
+    width:1725px;
+    margin:0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
