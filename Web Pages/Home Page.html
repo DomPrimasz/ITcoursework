@@ -4,7 +4,22 @@
     <link rel="stylesheet" href="Home%20Page.css">
     <meta charset="UTF-8">
     <title>Home</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
 
+        $(document).ready(function() {
+            $("#cf7_controls").on('click', 'span', function() {
+                $("#cf7 img").removeClass("opaque");
+
+                var newImage = $(this).index();
+
+                $("#cf7 img").eq(newImage).addClass("opaque");
+
+                $("#cf7_controls span").removeClass("selected");
+                $(this).addClass("selected");
+            });
+        });
+    </script>
 </head>
 <body>
 
@@ -24,12 +39,23 @@
     <a href="url">Info</a>
 </div>
 
-<div id="StudentsWorking" class="shadow">
+
+
+
+
+<div id="cf7" class="shadow">
     <img class="bottom" src="../resources/students-wolverhampton-college.jpg" height="351" width="710"/>
     <img class="top" src="../resources/ezgif-7-a1d69e005aef.jpg" height="351" width="710"/>
+    <img src="../resources/students.jpg" height="351" width="710"/>
+    <img src="../resources/161027_col_tips.jpg" height="351" width="710"/>
 </div>
 
-
+<p id="cf7_controls">
+    <span class="selected">Image 1</span>
+    <span>Image 2</span>
+    <span>Image 3</span>
+    <span>Image 4</span>
+</p>
 
 </body>
 </html>
