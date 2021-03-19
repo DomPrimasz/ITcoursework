@@ -1,6 +1,6 @@
 div.Header{
     position: relative;
-    right: 8px;
+    right: 6px;
     bottom: 8px;
     text-align: center;
     background: #664673;
@@ -22,6 +22,11 @@ div.Menu a{
 
 }
 
+div.InfoBox{
+    position: relative;
+
+}
+
 div.Menu a:hover{
     color: #e3b06f;
 
@@ -40,7 +45,9 @@ img {
 
 
 p#cf7_controls {
-    text-align: center;
+   position: relative;
+    padding-left: 305px;
+    top: -20px;
 }
 #cf7_controls span {
     position: relative;
@@ -51,7 +58,7 @@ p#cf7_controls {
 #cf7 {
     position:relative;
     height:500px;
-    width:1800px;
+    width:1875px;
     margin:0 auto 10px;
 }
 #cf7 img {
@@ -71,6 +78,12 @@ p#cf7_controls {
     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     filter: alpha(opacity=1);
 }
+
+#cf7 img.selected {
+    opacity: 1;
+}
+
+
 
 
 

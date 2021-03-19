@@ -6,7 +6,6 @@
     <title>Home</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
-
         $(document).ready(function() {
             $("#cf7_controls").on('click', 'span', function() {
                 $("#cf7 img").removeClass("opaque");
@@ -16,18 +15,26 @@
                 $("#cf7 img").eq(newImage).addClass("opaque");
 
                 $("#cf7_controls span").removeClass("selected");
+                $("#cf7_controls span").text("⚫");
                 $(this).addClass("selected");
+                $(this).text('🟢');
+
             });
         });
+
+
+
     </script>
 </head>
-<body>
+<body onload="()">
 
 
 <div class="Header">
     <img src="../resources/536f60bc-47f4-41d6-9a2c-0cb938e74752_200x200.png" height="160" width="200" alt="Logo" title="Logo of TangleWood College with an owl"/>
 
 </div>
+
+
 
 <div class = "Menu">
     <a href="url">Home Page</a>
@@ -40,21 +47,23 @@
 </div>
 
 
-
+<div class="InfoBox">
+    Our college is grood
+</div>
 
 
 <div id="cf7" class="shadow">
-    <img class="bottom" src="../resources/students-wolverhampton-college.jpg" height="351" width="710"/>
-    <img class="top" src="../resources/ezgif-7-a1d69e005aef.jpg" height="351" width="710"/>
-    <img src="../resources/students.jpg" height="351" width="710"/>
-    <img src="../resources/161027_col_tips.jpg" height="351" width="710"/>
+    <img class="selected" src="../resources/students-wolverhampton-college.jpg" height="451" width="810" alt="Students Working" title="The image shows students working"/>
+    <img src="../resources/ezgif-7-a1d69e005aef.jpg" height="451" width="810" alt="Students Working" title="The image shows students working"/>
+    <img src="../resources/students.jpg" height="451" width="810" alt="Students Working" title="The image shows students working"/>
+    <img src="../resources/161027_col_tips.jpg" height="451" width="810" alt="Students Working" title="The image shows students working"/>
 </div>
 
 <p id="cf7_controls">
-    <span class="selected">Image 1</span>
-    <span>Image 2</span>
-    <span>Image 3</span>
-    <span>Image 4</span>
+    <span class="selected">🟢</span>
+    <span>⚫</span>
+    <span>⚫</span>
+    <span>⚫</span>
 </p>
 
 </body>
