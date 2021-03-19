@@ -22,7 +22,14 @@
             });
         });
 
+        $(document).ready(function() {
+            $("#accordion section h1").click(function(e) {
+                $(this).parents().siblings("section").addClass("ac_hidden");
+                $(this).parents("section").removeClass("ac_hidden");
 
+                e.preventDefault();
+            });
+        });
 
     </script>
 </head>
@@ -47,8 +54,35 @@
 </div>
 
 
-<div class="InfoBox">
-    Our college is grood
+<div id="accordion">
+    <section id="item1">
+        <p class="pointer">&#9654;</p><h1><a href="#">About Us</a></h1>
+        <p>TangleWood College is a place of passion and learning. We have employed over 200 knowledgeable staff members in our
+        place of learning and we reside well established in our local area. We are greatly involved in community projects
+         and events in our area, and we succeeded in raising a total £50,000 for numerous charities, including: WaterAid, Christian Aid,
+            British Red Cross, and many more. All of our students and staff help to build a friendly environment to welcome
+            everyone into our campus.
+            <br>
+            <br>
+            The college was first established in 1991 aiming to provide an immaculate learning environment where every student
+            would have the opportunity to become something more. Over the years, the college has expanded in every fields and has developed
+            its course range and number of helpful staff by a tremendous amount.
+            <br>
+            <br>
+            Thanks to its efforts, it has seen great success in seeking every one of its students to their next step in education
+            with a head start that no other institution could provide.
+
+        </p>
+    </section>
+    <section id="item2" class="ac_hidden">
+        <p class="pointer">&#9654;</p><h1><a href="#">Why choose us?</a></h1>
+        <p>we are grood </p>
+    </section>
+    <section id="item3" class="ac_hidden">
+        <p class="pointer">&#9654;</p><h1><a href="#">Two short paragraphs</a></h1>
+        <p>Pellentesque habitant... </p>
+        <p>Pellentesque habitant... </p>
+    </section>
 </div>
 
 
