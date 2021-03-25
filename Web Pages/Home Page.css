@@ -1,29 +1,42 @@
 
 
 div.Header{
-    position: relative;
-    right: 30px;
-    bottom: 8px;
+    position: absolute;
+    right: 25px;
+    top: 0px;
     text-align: center;
     background: #664673;
     color: white;
     font-size: 20px;
-    width: 1942px;
+    width: 1991px;
     height: 120px;
 }
 
-div.Menu a{
+
+div.Header img{
+    position: absolute;
+    bottom: 5px;
+    right: 1675px;
+}
+
+
+#Menu a{
     position: relative;
-    left: 950px;
-    bottom: 80px;
+    left: 1050px;
+    top: 45px;
     color: #dbc5a9;
     text-decoration: none;
     font-size: 20px;
-    margin-left: 150px;
+    padding-right:2em;
     font-family: Arial;
+    z-index: 100000;
+
 
 }
 
+#Menu {
+
+}
 
 #accordion section, #accordion .pointer, #accordion h1, #accordion p {
     -webkit-transition: all 0.5s ease-in-out;
@@ -32,13 +45,13 @@ div.Menu a{
     transition: all 0.5s ease-in-out;
 }
 #accordion {
-    margin-bottom:30px;
+
 }
 #accordion h1 {
     line-height:1.2;
     font-size:20px;
     background-color:rgba(255,0,0,0.3);
-    margin:0;
+    margin: 0;
     padding: 10px 10px 10px 30px;
 }
 
@@ -47,9 +60,9 @@ div.Menu a{
 
 }
 #accordion {
-    position: relative;
+    position: absolute;
     left: 850px;
-
+    top: 150px;
     color: #EA9085;
 
 }
@@ -76,7 +89,6 @@ div.Menu a{
 }
 #accordion .pointer {
     padding:0;
-    margin:10px 0 0 6px;
     line-height:20px;
     width:13px;
     position:absolute;
@@ -96,7 +108,7 @@ div.Menu a{
 
 }
 
-div.Menu a:hover{
+#Menu a:hover{
     color: #e3b06f;
 
     font-size: 20px;
@@ -104,19 +116,19 @@ div.Menu a:hover{
     text-decoration: none;
 
 }
-img {
-    position: relative;
+#cf7 img{
+    position: absolute;
     right: 855px;
-    bottom: 40px;
+    top: 110px;
 
 }
 
 
 
 p#cf7_controls {
-   position: relative;
+    position: absolute;
     padding-left: 305px;
-    top: -20px;
+    top: 625px;
 }
 #cf7_controls span {
     position: relative;
@@ -125,10 +137,9 @@ p#cf7_controls {
 
 }
 #cf7 {
-    position:relative;
+    position:absolute;
     height:100px;
     width:1875px;
-    margin:0 auto 10px;
 }
 #cf7 img {
     position:absolute;
@@ -154,9 +165,26 @@ p#cf7_controls {
 
 
 
+div.Background{
+    position: absolute;
+    top: 1175px;
+    background: #e8e8e8;
+    color: white;
+    font-size: 20px;
+    width: 1905px;
+    height: 1000px;
+    left:1px;
+}
 
+#ofsted{
+    position: absolute;
+    left: 850px;
+    top: 525px;
+}
 
+#beacon{
 
+}
 
 
 
