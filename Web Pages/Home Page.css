@@ -167,11 +167,12 @@ p#cf7_controls {
 
 div.Background p{
     position: absolute;
-    color: #e3b06f;
+    color: black;
     font-size: 21px;
     right: 0px;
     font-weight: normal;
     text-shadow: none;
+    padding-left: 5px;
 }
 
 div.Background{
@@ -192,7 +193,7 @@ div.Background{
 
 div.Background video{
     position: absolute;
-    left: 200px;
+    left: 120px;
     border: 5px solid darkred;
 }
 
@@ -220,11 +221,52 @@ div.Background video{
     top: 1000px;
 }
 
+#History{
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    position: absolute;
+    left: 850px;
+    top: 150px;
+    text-align: center;
+}
+#History p{
+    color: #e3b06f;
+    font-size: 20px;
+}
 
+#Requirements{
+    font-size: 30px;
+    width: 1040px;
+    background: lightgray;
+    color: orangered;
+}
 
+#Requirements p{
+    color: black;
+}
 
+#questions{
+    color: mediumpurple;
+    font-weight: bold;
+    font-size: 24px;
+}
 
+#FormHeader{
+    position:absolute;
+    color: #333333;
+    font-weight: bold;
+    font-size: 32px;
+    top: 150px;
+    left: 750px;
+    text-align: center;
+}
 
+#Form{
+    position: absolute;
+    top: 200px;
+    left: 750px;
+}
 
 
 
