@@ -233,6 +233,7 @@ div.Background video{
 #History p{
     color: #e3b06f;
     font-size: 20px;
+
 }
 
 #Requirements{
@@ -247,6 +248,7 @@ div.Background video{
 }
 
 #questions{
+    padding-top: 100px;
     color: mediumpurple;
     font-weight: bold;
     font-size: 24px;
@@ -268,5 +270,40 @@ div.Background video{
     left: 750px;
 }
 
+#PastStudents p{
+    position: absolute;
+    top: 400px;
+    right: 1720px;
+    font-size: 30px;
+    color: #664673;
+}
 
+#PastStudents2 p{
+    position: absolute;
+    top: 400px;
+    right: 1420px;
+    font-size: 30px;
+    color: #664673;
+}
 
+#OurAlumni p{
+    position: absolute;
+    top: 400px;
+    right: 1220px;
+    font-size: 30px;
+    color: #664673;
+}
+
+#Alumnus img{
+    border: 5px solid goldenrod;
+    padding-top: 100px;
+}
+
+#Alumnus p{
+    position: relative;
+    bottom: 650px;
+    color: #EA9085;
+    font-size: 25px;
+    left: 625px;
+
+}
