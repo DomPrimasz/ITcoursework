@@ -28,12 +28,12 @@
 <div id="Form">
     <form>
         <label for="sname">Surname:</label><br>
-        <input type="text" id="sname" name="sname"> *
+        <input type="text" id="sname" required name="sname"> *
         <br>
         <br>
         <br>
         <label for="Email">Email:</label><br>
-        <input type="text" id="Email" name="Email"> *
+        <input type="email" id="Email" required name="Email"> *
         <br>
         <br>
         <br>
@@ -47,9 +47,14 @@
         <br>
         <label for="Enquiry">Enquiry:</label>
         <br>
-        <textarea id="Enquiry" name="Enquiry" rows="4" cols="50">
-
+        <textarea id="Enquiry" name="Enquiry" required minlength="10” maxlength=”65" rows="4" cols="50">
 </textarea>
+        <br>
+        <input type="checkbox" id="checkbox" required> I consent to the use of the data above to contact me regarding my enquiries,  <br>
+        which are held temporarily as according to GDPR guidelines
+        <br>
+        <br>
+        <input type="submit" value="Submit">
     </form>
 </div>
 </body>

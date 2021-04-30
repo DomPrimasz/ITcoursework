@@ -307,3 +307,19 @@ div.Background video{
     left: 625px;
 
 }
+
+#sname{
+    border: 5px solid orangered;
+}
+
+#Email{
+    border: 5px solid orangered;
+}
+
+#Subject{
+    border: 5px solid orangered;
+}
+
+#Enquiry{
+    border: 5px solid orangered;
+}
