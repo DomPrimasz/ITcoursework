@@ -79,6 +79,7 @@ div.Header img{
 #accordion p {
     padding:0 10px;
     color:black;
+    font-family: Arial;
 }
 #accordion section.ac_hidden p:not(.pointer) {
     color:#dbc5a9;
@@ -231,8 +232,10 @@ div.Background video{
     text-align: center;
 }
 #History p{
-    color: #e3b06f;
+    color: black;
     font-size: 20px;
+    background: lightgray;
+    border: 5px solid black;
 
 }
 
@@ -241,6 +244,7 @@ div.Background video{
     width: 1040px;
     background: lightgray;
     color: orangered;
+    border: 5px solid black;
 }
 
 #Requirements p{
@@ -295,9 +299,9 @@ div.Background video{
 }
 
 #Alumnus img{
-    border: 5px solid goldenrod;
-    padding-top: 100px;
-}
+     border: 5px solid goldenrod;
+
+ }
 
 #Alumnus p{
     position: relative;
@@ -305,6 +309,19 @@ div.Background video{
     color: #EA9085;
     font-size: 25px;
     left: 625px;
+    padding-top: 100px;
+}
+
+#Alumnus2 img{
+    border: 5px solid goldenrod;
+    text-align: right;
+    bottom: 650px;
+}
+
+#Alumnus2 p2{
+    position: relative;
+    color: #EA9085;
+    font-size: 20px;
 
 }
 
@@ -322,4 +339,9 @@ div.Background video{
 
 #Enquiry{
     border: 5px solid orangered;
+}
+
+#Form{
+    border: 10px solid black;
+    background: lightgray
 }
